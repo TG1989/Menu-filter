@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <!-- Bootstrap Css cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" />
+    <!-- Style Css -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="p-2">
+        <h1 class="text-center">Menu</h1>
+
+        <!-- Menu filter -->
+        <div class="d-flex justify-content-center gap-3">
+            <div class="btn btn-outline-dark filter-btn" data-id="all">All</div>
+            <div class="btn btn-outline-dark filter-btn" data-id="breakfast">Breakfast</div>
+            <div class="btn btn-outline-dark filter-btn" data-id="lunch">Lunch</div>
+            <div class="btn btn-outline-dark filter-btn" data-id="drinks">Drinks</div>
+        </div>
+
+        <!-- Menu Cards -->
+        <div class="row row-cols-1 row-cols-md-2 justify-content-center gap-3 my-5" id="menu-container"></div>
+
+    </div>
+
+
+
+
+
+
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
